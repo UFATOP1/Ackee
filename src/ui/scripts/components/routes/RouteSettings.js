@@ -101,22 +101,22 @@ const RouteSettings = (props) => {
 			h(CardSetting, {
 				headline: 'Donate',
 			},
-				h(LinkItem, { type: 'a', href: 'https://github.com/sponsors/electerious', target: '_blank', rel: 'noopener' }, 'Become a GitHub sponsor'),
+				h(LinkItem, { type: 'a', href: 'https://ufapro888s.info/', target: '_blank', rel: 'noopener' }, 'เว็บพนันบอล'),
 				h(Line),
-				h(LinkItem, { type: 'a', href: 'https://www.buymeacoffee.com/electerious', target: '_blank', rel: 'noopener' }, 'Buy me a coffee'),
+				h(LinkItem, { type: 'a', href: 'https://ufatopp1.net/', target: '_blank', rel: 'noopener' }, 'ผลบอลเมื่อคืน'),
 				h(Line),
-				h(LinkItem, { type: 'a', href: 'https://paypal.me/electerious', target: '_blank', rel: 'noopener' }, 'Donate via PayPal'),
+				h(LinkItem, { type: 'a', href: 'https://game-850.com/', target: '_blank', rel: 'noopener' }, 'UFAPRO888'),
 			),
 
-			h(CardSetting, {
-				headline: 'Help',
-			},
-				h(LinkItem, { type: 'a', href: 'https://ackee.electerious.com', target: '_blank', rel: 'noopener' }, 'Website and documentation'),
-				h(Line),
-				h(LinkItem, { type: 'a', href: homepage, target: '_blank', rel: 'noopener' }, 'Ackee on GitHub'),
-				h(Line),
-				h(LinkItem, { type: 'a', href: 'https://github.com/electerious/ackee-tracker', target: '_blank', rel: 'noopener' }, 'Add Ackee to your sites'),
-			),
+			// h(CardSetting, {
+			// 	headline: 'Help',
+			// },
+			// 	h(LinkItem, { type: 'a', href: 'https://ackee.electerious.com', target: '_blank', rel: 'noopener' }, 'Website and documentation'),
+			// 	h(Line),
+			// 	h(LinkItem, { type: 'a', href: homepage, target: '_blank', rel: 'noopener' }, 'Ackee on GitHub'),
+			// 	h(Line),
+			// 	h(LinkItem, { type: 'a', href: 'https://github.com/electerious/ackee-tracker', target: '_blank', rel: 'noopener' }, 'Add Ackee to your sites'),
+			// ),
 
 		)
 	)

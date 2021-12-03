@@ -45,7 +45,7 @@ const OverlayLogin = (props) => {
 				}, 'Ackee'),
 				h(Text, {
 					type: 'p',
-				}, 'Welcome back, sign in to continue.'),
+				}, 'ยินดีต้อนรับกลับมา ลงชื่อเข้าใช้เพื่อดำเนินการต่อ.'),
 
 				h(Spacer, { size: 2.5 }),
 

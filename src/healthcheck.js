@@ -38,7 +38,7 @@ const check = () => Promise.all([
 ])
 
 const handleSuccess = () => {
-	signale.success('Ackee is up and running')
+	signale.success('PNCKDEVAPP ANALYTICS is up and running')
 	exit(true)
 }
 
