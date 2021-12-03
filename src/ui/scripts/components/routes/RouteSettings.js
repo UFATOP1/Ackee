@@ -1,7 +1,7 @@
 import { createElement as h, Fragment } from 'react'
 import PropTypes from 'prop-types'
 
-import { version, homepage } from '../../../../../package.json'
+import { version } from '../../../../../package.json'
 import useDeleteToken from '../../api/hooks/tokens/useDeleteToken'
 import useDomains from '../../api/hooks/domains/useDomains'
 import useEvents from '../../api/hooks/events/useEvents'

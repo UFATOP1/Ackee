@@ -1,18 +1,18 @@
 {
   "name": "ufax",
-  "private": true,
   "version": "1.0.0",
   "description": "Self-hosted, Node.js based analytics tool for those who care about privacy",
   "main": "src/index.js",
+  "homepage": "https://ufapro888s.info/",
   "scripts": {
     "start": "npm run build && npm run server",
     "start:dev": "NODE_ENV=development nodemon",
-    "build:pre": "BUILD_ENV=pre npm run build",
+    "build:pre": "BUILD_ENV=production npm run build",
     "build": "node build.js",
     "server": "node src/index.js",
     "coveralls": "nyc report --reporter=lcov",
     "test": "npm run lint && nyc ava",
-    "lint": "eslint \"{functions,src,test}/**/*.js\""
+    "lint": "eslint \"{functions,src,test}/**/*.js\" --fix"
   },
   "dependencies": {
     "ackee-tracker": "^5.1.0",

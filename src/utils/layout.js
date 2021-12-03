@@ -18,10 +18,10 @@ module.exports = (body, favicon, styles, scripts, variables) => `
 			<meta property="og:site_name" content="PNCKDEVAPP ANALYTICS">
 			
 			<!-- Favicon -->
-			<link rel="shortcut icon" href="${favicon}" type="image/x-icon">
+			<link rel="shortcut icon" href="${ favicon }" type="image/x-icon">
 
 			<!-- CSS -->
-			${styles.map((src) => `<link rel="stylesheet" href="${src}">`).join('')}
+			${ styles.map((src) => `<link rel="stylesheet" href="${ src }">`).join('') }
 			<link rel="preconnect" href="https://fonts.googleapis.com">
 			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 			<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;1,300&display=swap" rel="stylesheet">
@@ -37,16 +37,16 @@ module.exports = (body, favicon, styles, scripts, variables) => `
 			</style>
 
 			<!-- JS -->
-			${scripts.map((src) => `<script defer src="${src}"></script>`).join('')}
+			${ scripts.map((src) => `<script defer src="${ src }"></script>`).join('') }
 			
 			<!-- Variables -->
 			<script>
-				window.env = ${JSON.stringify(variables)}
+				window.env = ${ JSON.stringify(variables) }
 			</script>
 		</head>
 		<body>
 
-			${body}
+			${ body }
 
 			<footer class="footbar">
 			<p>ANALYTICS : PNCKDEVAPP</p>
